@@ -8,10 +8,11 @@ public class Divide{
    }
    
    public int divide(){
-    POJO pojo= new POJO();// or use   POJO pojo= new POJO(9,3); instead of calling setNum and setDenom??
+    POJO pojo= new POJO();// or use POJO pojo= new POJO(9,3); instead of calling setNum and setDenom??
     pojo.setNum(9);
     pojo.setDenom(3);
      answer = pojo.getNum()/pojo.getDenom(); 
+     answer
      return answer;
    }
 

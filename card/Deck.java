@@ -7,7 +7,6 @@ import card.Suit;
 public class Deck {
 //create a static instance of the class
 private static Deck deck;
-//public Card card;
 
 //make the constructor private 
   private Deck( ) {
