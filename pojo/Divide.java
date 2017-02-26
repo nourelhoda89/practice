@@ -7,11 +7,13 @@ public class Divide{
        this.answer = 0;
    }
 
-   public int divide()  {
+   public int divide(){
+   
     try{
+    
        POJO pojo= new POJO();
        pojo.setNum(9);
-       pojo.setDenom(0);
+       pojo.setDenom(3);
        answer = pojo.getNum()/pojo.getDenom();
        
     }catch (Exception e){
