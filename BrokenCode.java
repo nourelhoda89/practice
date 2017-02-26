@@ -9,12 +9,12 @@ public class BrokenCode {
    }
 
    public String getName(){
-   	// broken!!!!
+   
       return  name;
    }
 
    public double toCentimeters(double inches){
-   	// broken!!!!
+   
       return  inches;
    }
 
