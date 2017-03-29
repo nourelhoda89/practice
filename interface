@@ -1,0 +1,17 @@
+interface Pourable{
+   public void pour();
+  
+}
+class Bottle implements Pourable{
+   public void pour(){
+   //Do POUR
+   }
+}
+class Cloud implements Pourable{
+   public void pour(){
+   //Do POUR
+   }
+}
+//create a collection of porable things:
+//ArrayList<Pourable> pourable=new ArrayList<>();
+//Interf
