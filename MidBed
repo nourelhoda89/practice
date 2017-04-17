@@ -1,0 +1,20 @@
+package edu.jalc.automobile.onlinebuilder.builders.dodgeram.ram1500.parts.cabandbox;
+import  edu.jalc.automobile.parts.body.TruckBed;
+
+public class MidBed extends TruckBed{
+   
+   public double CUBICFT;
+   
+   private MidBed(double CUBICFT){   
+   }
+
+   public double getCubicFt(){
+   
+      return CUBICFT;
+   }
+      
+   public String toString(){
+      return  "MidBed :" +CUBICFT+ "square feet";
+   
+   }
+}
